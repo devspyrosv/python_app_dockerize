@@ -1,9 +1,10 @@
-import time
-import sys
 import os
 import platform
+import sys
+import time
 from datetime import datetime
 from pytz import timezone
+
 """
 Simple proof of concept python application
 """
