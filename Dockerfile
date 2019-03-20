@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER Spyros Vlachos <--->
+MAINTAINER Spyros Vlachos 
 
 # os setup
 RUN apk update && apk add \

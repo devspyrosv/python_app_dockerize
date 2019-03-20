@@ -1,12 +1,21 @@
-import time
-import sys
 import os
 import platform
+import sys
+import time
 from datetime import datetime
 from pytz import timezone
 
+"""
+Simple proof of concept python application
+"""
+
 
 def looper():
+    """
+    Simple proof of concept function.
+    Loops indefinitely, prints to stdout and writes to file.
+    :return:
+    """
     while True:
         string = (f"Hello var1:{os.getenv('VAR1')} var2:{os.getenv('VAR2')} var3:{os.getenv('VAR3')}! "
                   f"the time now is {datetime.now(tz=timezone('Europe/Athens'))} "
