@@ -13,7 +13,7 @@ Simple proof of concept python application
 def looper():
     """
     Simple proof of concept function.
-    Loops indefinitely, prints tou stdout and writes to file.
+    Loops indefinitely, prints to stdout and writes to file.
     :return:
     """
     while True:
